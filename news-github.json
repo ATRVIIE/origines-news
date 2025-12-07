@@ -2,7 +2,7 @@
   {
     "date": "07/12/2025",
     "title": "Mise à jour Gameplay",
-    "text": "Changement du design du menu pause, refonte du target...",
+    "text": "Nouveautés Gameplay...",
     "details": "<h3>Nouveautés Gameplay</h3><ul><li>Nouveau menu pause plus épuré</li><li>Refonte du système de target (yeux)</li><li>Optimisation des FPS</li><li>Ajout d'un fond pour les barres de vie</li><li>Optimisation du fichier utils</li></ul><p>Merci à l'équipe de dev !</p>",
     "icon": "◆"
   },
