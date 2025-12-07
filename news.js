@@ -1,0 +1,52 @@
+// Configuration des News locales
+// Ce fichier permet de modifier les news affichées dans le launcher
+// Format:
+// title: Le titre affiché dans la liste
+// text: Le petit texte résumé
+// details: Le contenu complet affiché quand on clique (HTML accepté)
+// date: La date affichée
+// icon: L'icône (◆ ou autre)
+
+const localNewsData = [
+  { 
+    date: "07/12/2025", 
+    title: "Mise à jour Gameplay",
+    text: "Changement du design du menu pause, refonte du target...",
+    details: `
+      <h3>Nouveautés Gameplay</h3>
+      <ul>
+        <li>Nouveau menu pause plus épuré</li>
+        <li>Refonte du système de target (yeux)</li>
+        <li>Optimisation des FPS</li>
+        <li>Ajout d'un fond pour les barres de vie</li>
+        <li>Optimisation du fichier utils</li>
+      </ul>
+      <p>Merci à l'équipe de dev !</p>
+    `,
+    icon: "◆" 
+  },
+  { 
+    date: "06/12/2025", 
+    title: "Nouveautés Cosmétiques",
+    text: "Ajout de deux nouvelles tenues pour femmes...",
+    details: `
+      <p>Découvrez la nouvelle collection hiver à la boutique de vêtements !</p>
+      <ul>
+        <li>Manteaux longs</li>
+        <li>Bottes fourrées</li>
+        <li>Écharpes colorées</li>
+      </ul>
+    `,
+    icon: "◆" 
+  },
+  { 
+    date: "04/12/2025", 
+    title: "Lancement Officiel",
+    text: "Ouverture du serveur au public !",
+    details: `
+      <p>Bienvenue sur Origines RP ! Nous sommes ravis de vous accueillir.</p>
+      <p>N'oubliez pas de lire le règlement sur Discord.</p>
+    `,
+    icon: "◆" 
+  }
+];
